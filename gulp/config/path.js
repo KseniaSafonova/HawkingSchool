@@ -8,9 +8,13 @@ export const path = {
     build: {
         css: `${buildFolder}/css/`,
         html: `${buildFolder}/`,
-        files: `${buildFolder}/files/`
+        img: `${buildFolder}/img/`,
+        files: `${buildFolder}/files/`,
+        fonts: `${buildFolder}/fonts/`
     },
     src: {
+        img: `${srcFolder}/img/**/*.{jpg,png}`,
+        svg: `${srcFolder}/img/**/*.svg`,
         scss: `${srcFolder}/scss/style.scss`,
         html: `${srcFolder}/*.html`,
         files: `${srcFolder}/files/**/*.*`,
@@ -18,7 +22,8 @@ export const path = {
     watch: {
         scss: `${srcFolder}/scss/**/*.scss`,
         html: `${srcFolder}/**/*.html`,
-        files: `${srcFolder}/files/**/*.*`
+        files: `${srcFolder}/files/**/*.*`,
+        img: `${srcFolder}/img/**/*.{jpg,png,svg}`,
     },
     clean: buildFolder,
     buildFolder: buildFolder,

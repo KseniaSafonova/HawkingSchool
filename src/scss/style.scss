@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
     width: 1920px;
 
     header {
         display: flex;
 
+        .header__logo {
+            margin-left: 63px;
+            margin-top: 26px;
+        }
+
         nav {
-            margin-left: 302px;
+            margin-left: 139px;
             margin-top: 64px;
             font-family: 'Montserrat';
             font-style: normal;
@@ -56,16 +63,31 @@ body {
 
         .socialNetwork {
             display: flex;
-            width: 90px;
+            width: 100px;
             height: 20px;
-            border: 1px solid red;
-            margin-top: 66px;
+            margin-top: 68px;
             margin-left: 61px;
+
+            img {
+                margin-left: 16px;
+            }
+
+            img:nth-child(1) {
+                margin-left: 0px;
+
+            }
+
+            img:nth-child(3),
+            img:nth-child(4) {
+                width: 15px;
+                height: 16px;
+                margin-top: 2px;
+            }
         }
 
         .icons {
             display: flex;
-            margin-left: 50px;
+            margin-left: 60px;
         }
 
         .search,
@@ -78,6 +100,9 @@ body {
             left: 1583px;
             margin-left: 16px;
             margin-top: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 
@@ -94,9 +119,13 @@ body {
             height: 90px;
             width: 1218px;
             margin-left: 351px;
+            font-family: 'Montserrat';
+            font-size: 16px;
+            font-weight: 400;
 
             span {
                 color: #E33E54;
+                font-weight: 600;
             }
         }
 
@@ -120,23 +149,39 @@ body {
             .main__mainSectioт-list {
                 margin-top: 39px;
                 width: 540px;
-                margin-left: 405px;
+                margin-left: 379px;
 
                 div {
+                    display: flex;
                     margin-top: 25px;
                     font-family: 'Montserrat';
                     font-size: 16px;
                     font-weight: 400;
                 }
+
+                img {
+                    margin-right: 17px;
+                    width: 9px;
+                    height: 9px;
+                }
             }
 
-            .main__mainSectioт-right {
+            .main__mainSection-right {
                 height: 541px;
                 width: 766px;
-                border: 1px solid red;
+
             }
+        }
 
 
+        .main__processSection {
+            margin-left: 351px;
+
+
+            .main__processSection-list {
+                display: flex;
+
+            }
         }
 
     }
