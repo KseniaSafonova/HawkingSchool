@@ -146,7 +146,37 @@ body main .main__mainSection .main__mainSection-right {
 }
 body main .main__processSection {
   margin-left: 351px;
+  font-family: "Montserrat";
+}
+body main .main__processSection h2 {
+  font-size: 40px;
+  font-weight: 600;
+  border-top: 5px solid #E33E54;
 }
 body main .main__processSection .main__processSection-list {
   display: flex;
+  font-weight: 400;
+  font-size: 16px;
+}
+body main .main__processSection .main__processSection-list .main__processSection-right {
+  margin-left: 30px;
+  width: 590px;
+}
+body main .main__processSection .main__processSection-list .main__processSection-left {
+  width: 590px;
+}
+body main .main__processSection .main__processSection-list .main__processSection-item {
+  display: flex;
+}
+body main .main__processSection .main__processSection-list .main__processSection-item div {
+  display: flex;
+  align-items: center;
+  margin-left: 42px;
+}
+body main .main__processSection .main__processSection-list .main__processSection-item span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  color: #E33E54;
+  opacity: 0.2;
 }
