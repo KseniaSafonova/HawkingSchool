@@ -456,8 +456,32 @@ body {
             .main__videoSection-video {
                 height: 482px;
                 width: 1156px;
-                border: 1px solid red;
-                margin-top: 51px;
+                margin-top: 61px;
+                border: 1px solid #FFFFFF;
+
+                .videoSeection-group1 {
+                    margin-top: -130px;
+                    margin-left: 50px;
+                }
+
+                .videoSeection-blob1 {
+                    margin-top: 120px;
+                }
+
+                .videoSeection-blob2 {
+                    margin-top: -420px;
+                    margin-left: 530px;
+                }
+
+                .videoSeection-group2 {
+                    margin-left: 1050px;
+                    margin-top: -420px;
+                }
+
+                .videoSeection-video {
+                    margin-top: -105px;
+                    margin-left: 192px;
+                }
             }
         }
 
