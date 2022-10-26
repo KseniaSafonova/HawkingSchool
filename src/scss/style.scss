@@ -12,8 +12,24 @@ body {
             margin-top: 26px;
         }
 
+        #header__burger {
+            margin-left: 52px;
+            margin-top: 48px;
+            height: 56px;
+            width: 56px;
+        }
+
+        #header__burger-rotate {
+            display: none;
+            margin-left: -52px;
+            margin-top: 48px;
+            rotate: 90deg;
+            height: 56px;
+            width: 56px;
+        }
+
         nav {
-            margin-left: 139px;
+            margin-left: 31px;
             margin-top: 64px;
             font-style: normal;
             font-weight: 700;
@@ -27,6 +43,10 @@ body {
             a {
                 text-decoration: none;
                 color: #4C858B;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
 
@@ -214,8 +234,30 @@ body {
             .main__mainSection-right {
                 height: 541px;
                 width: 766px;
+                background-image: url('@img/blob.png');
 
+                .triangle_1 {
+                    margin-top: 150px;
+                    margin-left: 15px;
+                }
+
+                .topGroup {
+                    margin-top: -170px;
+                    margin-left: 150px;
+                }
+
+                .triangle_2 {
+                    margin-top: -100px;
+                    margin-left: 650px;
+                }
+
+                .bottomGroup {
+                    margin-top: 360px;
+                    margin-left: 650px;
+                }
             }
+
+
         }
 
         .main__border {
@@ -387,6 +429,11 @@ body {
                         text-align: center;
                         color: #FFFFFF;
                         margin-left: 16px;
+
+                        &:hover {
+                            background-color: #EA6628;
+                            border: 1px solid #EA6628;
+                        }
                     }
                 }
 

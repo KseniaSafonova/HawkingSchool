@@ -11,8 +11,22 @@ body header .header__logo {
   margin-left: 63px;
   margin-top: 26px;
 }
+body header #header__burger {
+  margin-left: 52px;
+  margin-top: 48px;
+  height: 56px;
+  width: 56px;
+}
+body header #header__burger-rotate {
+  display: none;
+  margin-left: -52px;
+  margin-top: 48px;
+  rotate: 90deg;
+  height: 56px;
+  width: 56px;
+}
 body header nav {
-  margin-left: 139px;
+  margin-left: 31px;
   margin-top: 64px;
   font-style: normal;
   font-weight: 700;
@@ -25,6 +39,9 @@ body header nav {
 body header nav a {
   text-decoration: none;
   color: #4C858B;
+}
+body header nav a:hover {
+  text-decoration: underline;
 }
 body header .header__phone {
   margin-left: 56px;
@@ -180,6 +197,23 @@ body main .main__mainSection .main__mainSectioт-list span {
 body main .main__mainSection .main__mainSection-right {
   height: 541px;
   width: 766px;
+  background-image: url("../img/blob.png");
+}
+body main .main__mainSection .main__mainSection-right .triangle_1 {
+  margin-top: 150px;
+  margin-left: 15px;
+}
+body main .main__mainSection .main__mainSection-right .topGroup {
+  margin-top: -170px;
+  margin-left: 150px;
+}
+body main .main__mainSection .main__mainSection-right .triangle_2 {
+  margin-top: -100px;
+  margin-left: 650px;
+}
+body main .main__mainSection .main__mainSection-right .bottomGroup {
+  margin-top: 360px;
+  margin-left: 650px;
 }
 body main .main__border {
   border-bottom: 5px solid #E33E54;
@@ -325,6 +359,10 @@ body main .main__formSection .main__formSection-form .main__formSection-input bu
   text-align: center;
   color: #FFFFFF;
   margin-left: 16px;
+}
+body main .main__formSection .main__formSection-form .main__formSection-input button:hover {
+  background-color: #EA6628;
+  border: 1px solid #EA6628;
 }
 body main .main__videoSection {
   margin-left: 348px;

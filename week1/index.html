@@ -13,6 +13,8 @@
 <body>
     <header>
     <img src="img/logo.png" alt="" class="header__logo">
+    <img src="img/burger.png" alt="" id="header__burger">
+    <img src="img/burger.png" alt="" id="header__burger-rotate">
     <nav>
         <a href="">КАТАЛОГ ТОВАРОВ</a>
         <a href="">ДОСТАВКА И ОПЛАТА</a>
@@ -33,6 +35,22 @@
         <div class="header__icons-basket"><img src="img/basket.png" alt=""></div>
         <div class="header__basket-number">10</div>
     </div>
+
+    <script>
+        let burger = document.getElementById('header__burger');
+        let burger_rotate = document.getElementById('header__burger-rotate');
+
+        burger.onclick = function () {
+            burger.style.visibility = 'hidden';
+            burger_rotate.style.display = 'block';
+        }
+
+        burger_rotate.onclick = function () {
+            burger.style.visibility = 'visible';
+            burger_rotate.style.display = 'none';
+        }
+
+    </script>
 </header>
     <main>
         <h1>Монтаж дымоходов</h1>
@@ -87,7 +105,10 @@
                 </div>
             </div>
             <div class="main__mainSection-right">
-                <img src="img/blob.png" alt="">
+                <div class="triangle_1"><img src="img/triangle.png" alt=""></div>
+                <div class="topGroup"><img src="img/group.png" alt=""></div>
+                <div class="triangle_2"><img src="img/triangle.png" alt=""></div>
+                <div class="bottomGroup"><img src="img/group.png" alt=""></div>
             </div>
         </section>
         <section class="main__processSection">
@@ -177,7 +198,7 @@
                 <div class="main__formSection-input">
                     <input type="text">
                     <input type="text">
-                    <button>отправить</button>
+                    <button onclick="alert('Ваша заявка отправлена!')">отправить</button>
                 </div>
             </div>
         </section>
